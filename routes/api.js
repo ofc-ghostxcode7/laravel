@@ -3,7 +3,7 @@ __path = process.cwd()
 var express = require('express');
 var db = require(__path + '/database/db');
 try {
-var zahirr = db.get("hfizwa");
+var hfizwa = db.get("hfizwa");
 } catch (e) {
 	console.log('')
 }
